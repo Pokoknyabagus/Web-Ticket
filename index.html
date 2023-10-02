@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Signika:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+      type="text/css"
+    />
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <title>Home</title>
+  </head>
+
+  <body>
+    <!-- nav start -->
+    <nav>
+      <div class="container">
+        <a href="#" class="logo">Traveling.com</a>
+        <div class="navbar-menu" id="navbar-menu">
+          <select name="" id="">
+            <option value="" selected disabled>Currency</option>
+            <option value="">Dollar</option>
+            <option value="">Pounds</option>
+            <option value="">Rupiah</option>
+          </select>
+          <select name="" id="">
+            <option value="" selected disabled>Language</option>
+            <option value="">English USA</option>
+            <option value="">English UK</option>
+            <option value="">Indonesian</option>
+          </select>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <button class="btn sign-up">Sign up</button>
+          <button class="btn login">Login</button>
+        </div>
+        <button id="hamburgerButton" type="button" aria-label="Navigasi-Button">
+          ☰
+        </button>
+      </div>
+      <div class="hero">
+        <img src="Img/background-heading.png" alt="hero" />
+      </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- main start -->
+    <main>
+      <div class="container-1">
+        <div class="section1">
+          <div class="heading">
+            <h1>Find your next stay</h1>
+            <h3>Search deals on hotels, homes, and much more...</h3>
+          </div>
+          <div class="input">
+            <input type="text" class="text" placeholder="Search..." />
+            <input
+              id="date-border"
+              type="date"
+              class="date"
+              placeholder="Check in Date - Check in out Date"
+              value="00-00-0000"
+            />
+            <button class="button">
+              <i class="uil uil-search icon"></i>
+            </button>
+          </div>
+          <div class="select-input">
+            <select name="" id="">
+              <option value="" selected disabled>Transportation</option>
+              <option value="">Aircraft</option>
+              <option value="">Train</option>
+              <option value="">Bus</option>
+            </select>
+            <select name="" id="">
+              <option value="" selected disabled>Place To Stay</option>
+              <option value="">Hotel</option>
+              <option value="">Aircraft + Hotel</option>
+              <option value="">Holiday Stay</option>
+            </select>
+            <select name="" id="">
+              <option value="" selected disabled>Activity</option>
+              <option value="">Experience</option>
+            </select>
+            <select name="" id="">
+              <option value="" selected disabled>Credit</option>
+              <option value="">My bill</option>
+              <option value="">Internet Packages</option>
+              <option value="">Credit Card</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="container-2">
+        <div class="section2">
+          <div class="heading">
+            <h1>The best promos for economical holidays!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Quisque nunc integer</p>
+          </div>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <a href=""><img src="Img/1.jpg" alt="" srcset="" width="10" /></a>
+            </div>
+            <div class="item">
+              <a href=""
+                ><img src="Img/2.jpg" alt="" srcset="" width="100"
+              /></a>
+            </div>
+            <div class="item">
+              <a href=""
+                ><img src="Img/3.jpg" alt="" srcset="" width="100"
+              /></a>
+            </div>
+            <div class="item">
+              <a href=""
+                ><img src="Img/4.png" alt="" srcset="" width="100"
+              /></a>
+            </div>
+            <div class="item">
+              <a href=""
+                ><img src="Img/5.jpg" alt="" srcset="" width="100"
+              /></a>
+            </div>
+            <div class="item">
+              <a href=""
+                ><img src="Img/5.jpg" alt="" srcset="" width="100"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="section3">
+          <div class="heading">
+            <h1>Quick Info & Guide</h1>
+            <p>dolor sit amet consectetur...</p>
+          </div>
+          <div class="container-card" id="container-card-768">
+            <div class="card">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <p>General info on travel regulations</p>
+                <div class="size-icon"><i class="uil uil-book icon"></i></div>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <p>international flight info</p>
+                <div class="size-icon">
+                  <i class="uil uil-plane icon"></i>
+                </div>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <p>domestic flight info</p>
+                <div class="size-icon">
+                  <i class="uil uil-building icon"></i>
+                </div>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <p>train travel info</p>
+                <div class="size-icon">
+                  <i class="uil uil-subway icon"></i>
+                </div>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <p>how to refund</p>
+                <div class="size-icon">
+                  <i class="uil uil-money-insert icon"></i>
+                </div>
+              </a>
+            </div>
+            <div class="card">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <p>how to change schedule</p>
+                <div class="size-icon">
+                  <i class="uil uil-calendar-alt icon"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="section4">
+          <div class="heading">
+            <h1>Trending destinations</h1>
+            <p>Most popular choices for travelers from Indonesia</p>
+          </div>
+          <div class="grid-destination">
+            <div class="first-destination">
+              <a href="" class="title">
+                <h2 class="body-text">Borobudur</h2>
+                <img src="Img/borobudur.jpg" alt="jpg" srcset="" />
+              </a>
+              <a href="" class="title">
+                <h2 class="body-text">Jakarta</h2>
+                <img src="Img/jakarta.jpg" alt="" srcset="" />
+              </a>
+            </div>
+            <div class="second-destination">
+              <a href="" class="title">
+                <h2 class="body-text">Ubud</h2>
+                <img src="Img/ubud.jpg" alt="" srcset="" />
+              </a>
+              <a href="" class="title">
+                <h2 class="body-text">Canggu</h2>
+                <img src="Img/canggu.jpg" alt="" srcset="" />
+              </a>
+              <a href="" class="title">
+                <h2 class="body-text">Bali</h2>
+                <img src="Img/bali.jpg" alt="" srcset="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- main end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="container">
+        <div class="content-1">
+          <a class="logo" href="#" target="_blank" rel="noopener noreferrer"
+            >Traveling.com</a
+          >
+          <div class="icon-mini">
+            <div class="icon">
+              <i class="uil uil-whatsapp"></i>
+              <a href=""
+                >WhatsApp <br />
+                0812-0000-1000</a
+              >
+            </div>
+            <div class="icon">
+              <i class="uil uil-envelope"></i>
+              <a href=""
+                >Email <br />
+                cs@gmail.com</a
+              >
+            </div>
+            <div class="icon">
+              <i class="uil uil-phone"></i>
+              <a href=""
+                >Call Center <br />
+                0820-0000-1990</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="content-2">
+          <h3>About</h3>
+          <div class="text">
+            <a href="">How To Order</a>
+            <a href="">Career</a>
+            <a href="">Instalment</a>
+            <a href="">Partners</a>
+            <a href="">Protection</a>
+          </div>
+        </div>
+        <div class="content-2">
+          <h3>Product</h3>
+          <div class="text">
+            <a href="">Flight Ticket</a>
+            <a href="">Train Ticket</a>
+            <a href="">Credit</a>
+            <a href="">Car Rental</a>
+            <a href="">Bill Payment</a>
+            <a href="">Events</a>
+          </div>
+        </div>
+        <div class="content-2">
+          <h3>Other</h3>
+          <div class="text">
+            <a href="">Blog</a>
+            <a href="">Flash Sales</a>
+            <a href="">Terms And Conditions</a>
+            <a href="">Register Your Hotel</a>
+            <a href=""
+              >Register To Become <br />
+              A restaurant Partner</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script src="script.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 10000,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 5,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
