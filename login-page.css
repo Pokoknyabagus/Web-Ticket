@@ -49,6 +49,7 @@ body {
     width: 100%;
     padding: 12px;
     border-radius: 8px;
+    text-align: center;
 }
 
 .content-1 input {
